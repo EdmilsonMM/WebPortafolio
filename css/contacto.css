@@ -1,0 +1,111 @@
+.formulario{
+    display: flex;
+    align-items: center;
+}
+.informacion__form{
+    width: 500px;
+    line-height: 35px;
+    display: flex;
+    margin-right: 4em;
+}
+
+.informacion__form u{
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.informacion__form p{
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.informacion__form a{
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.informacion__form a:hover{
+    background: radial-gradient(#F09819,#FF512F);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
+
+.datos__1{
+    margin: 0 40px;
+}
+
+
+.correo__form{
+    width: 700px;
+    /*background: blueviolet;*/
+}
+
+.correo__form a{
+    opacity: 0;
+}
+
+.correo__form input[type=text]{
+    display: block;
+    width: 90%;
+    height: 40px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid gray;
+    background: rgba(0, 0, 0, 0.322);
+    outline: none;
+    margin: 10px;
+}
+
+.correo__form input[type=submit]{
+    display: block;
+    background: #FA7500;
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.correo__form input[type=submit]:hover{
+    color: white;
+}
+
+
+
+.correo__form textarea{
+    width: 90%;
+    height: 80px;
+    padding: 10px 0px 0px 10px;
+    display: block;
+    resize: none;
+    border-radius: 5px;
+    outline: none; 
+    border: 2px solid gray;
+    background: rgba(0, 0, 0, 0.322);
+    outline: none; 
+    margin: 10px;
+    color: white;
+}
+
+.waber{
+    background:  #0E001E;;   
+}
+.pie{
+    background: rgb(24, 24, 24);
+    text-align: center;
+    padding: 20px 0 ;
+}
+.pie p{
+    color: white;
+    font-size: 20px;
+}
+
+.pie p span{
+    background: radial-gradient(#F09819,#FF512F);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
+
